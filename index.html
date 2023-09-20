@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="moneytracker.css">
+        <title>Money Tracker</title>
+</head>
+        <div class="header-container">
+          <h1>
+          <strong>Money Tracker</strong>
+          </h1>
+        </div>
+      
+<body>
+<!-- Button for ading and account -->
+    <button id="addBut" type="button">Add Account</button>
+       
+
+        <h3><label class="accountselect">Choose an account</label></h3>
+          
+
+<!-- Drop down to select diferent acconts -->
+        <select id="accountselect">
+          <option value="optionselect">--please choose an option--</option>
+            <!-- <option value="jmd">JMD Account</option>
+            <option value="usd">USD Account</option>
+            <option value="invest">Investment</option>
+            <option value="loan">Loan Payments</option>
+            <option value="pen-invest">Pension/Investments</option>
+            <option value="day1">DayToDay1</option>
+            <option value="day2">DayToDay2</option>
+            <option value="personal-sav">Personal Savings</option>
+            <option value="insure">Insurance</option> -->
+
+         </select>
+
+        </div>
+        
+        <div class="AccManagement">
+          <em><h3 class="manageacc">Accounts Management</h3></em>
+        </div>
+<!-- Button to manage accounts and investment accounts -->
+        <div class="buttoncontainer">
+          <button id="saveAccount" type="button">Manage Saving Accounts</button>
+          <button id="invesAccount" type="button">Manage Investment Accounts</button>
+      </div>
+        
+        <div class="summary">
+          <strong><h3>Accounts Summary</Summary></h3></strong>
+        </div>
+      
+  <!-- This table is intended to display the summary of all the accounts, including investments accounts -->
+      <table>
+        <thead>
+          <tr>
+            <th class="centeraligned">ACCOUNTS</th>
+              <th scope='row'>Withdraw</th>
+              <th scope='row'>Deposit</th>
+              <th scope='row'>Final Balance</th>
+          </tr>
+        </thead>
+
+        <thead>
+          <tr>
+            <td scope="col">JMD Account</td>
+          </tr>
+        </thead>
+
+      <tbody>
+        <tr>
+        <td scope="col">USD Account</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td scope="col">Investment</td>
+        </tr>
+      </tbody>
+          
+      <tbody>
+        <tr>
+          <td scope="col">Loan Payments</td>
+        </tr>
+      </tbody>
+          
+      <tbody>
+        <tr>
+          <td scope='col'>Pension / Investments</td>
+        </tr>
+      </tbody>
+        
+      <tbody>
+        <tr>
+          <td scope='col'>DayTo Day1</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td scope='col'>DayTo Day2</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td scope='col'>Personal Savings</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td scope='col'>Insurance</td>
+        </tr>
+      </tbody>
+          
+      <tfoot>
+        <tr>
+          <td scope='col'>TOTAL</td>
+        </tr>
+      </tfoot>
+    </table>
+      
+</body>
+
+<script src="moneytracker.js"></script>
+</html>
+
+
